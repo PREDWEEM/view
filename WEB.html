@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREDWEEM - Explicación RÁPIDA (sin retardo)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        body { font-family: 'Montserrat', sans-serif; }
+        .scene { display: none; animation: fadeIn 0.4s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .phone-frame {
+            max-width: 420px;
+            margin: 0 auto;
+            border: 14px solid #111827;
+            border-radius: 52px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px -15px rgb(0 0 0 / 0.5);
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.65);
+            padding: 14px 22px;
+            border-radius: 16px;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-green-950 to-emerald-950 text-white min-h-screen flex items-center justify-center p-4">
+    <div class="phone-frame w-full bg-black">
+        <div id="header" class="bg-emerald-600 py-4 text-center text-xl font-bold flex items-center justify-center gap-2">
+            <span class="text-3xl">🌾</span>
+            PREDWEEM
+            <span class="text-xs bg-white/20 px-4 py-1 rounded-3xl">Explicación rápida</span>
+        </div>
+
+        <!-- ESCENA 1 (3 segundos) -->
+        <div id="scene1" class="scene relative h-[640px] flex flex-col">
+            <img src="1-campo.jpg" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/70"></div>
+            <div class="absolute top-12 left-0 right-0 text-center px-8">
+                <h1 class="text-5xl font-bold leading-tight">¿Cómo funciona<br>PREWIM?</h1>
+                <p class="mt-8 text-2xl">Modelo predictivo de raigrás</p>
+            </div>
+        </div>
+
+        <!-- ESCENA 2 -->
+        <div id="scene2" class="scene relative h-[640px] flex flex-col">
+            <img src="2-app.jpg" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute top-8 left-0 right-0 px-6">
+                <div class="overlay text-center">
+                    <p class="font-bold text-emerald-300 text-sm">DATOS QUE INGRESÁS</p>
+                    <p class="text-3xl mt-2">Fecha + T° máx + T° mín + Lluvia</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ESCENA 3 -->
+        <div id="scene3" class="scene relative h-[640px] flex flex-col">
+            <img src="2-app.jpg" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute bottom-8 left-0 right-0 px-6 space-y-3">
+                <div class="overlay">1. Red neuronal predice germinación</div>
+                <div class="overlay">2. Balance hídrico: detiene si humedad &lt; 20 %</div>
+                <div class="overlay">3. Reloj térmico: ventana 600-800 °Cd</div>
+            </div>
+        </div>
+
+        <!-- ESCENA 4 -->
+        <div id="scene4" class="scene relative h-[640px] flex flex-col">
+            <img src="2-app.jpg" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute top-8 left-0 right-0 px-6 space-y-3">
+                <div class="overlay text-sm">Mapa de riesgo rojo y verde</div>
+                <div class="overlay text-sm">Curva interactiva con cohortes</div>
+                <div class="overlay text-sm">Medidor de grados-día + pronóstico</div>
+                <div class="overlay text-sm">Balance lluvia vs humedad</div>
+            </div>
+        </div>
+
+        <!-- ESCENA 5 -->
+        <div id="scene5" class="scene relative h-[640px] flex flex-col">
+            <img src="3-productor.jpg" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-12 left-0 right-0 px-8">
+                <div class="flex flex-wrap justify-center gap-3 text-sm">
+                    <div class="bg-white/90 text-emerald-800 px-5 py-3 rounded-3xl font-bold">Aplica en el momento exacto</div>
+                    <div class="bg-white/90 text-emerald-800 px-5 py-3 rounded-3xl font-bold">Evitás resistencia</div>
+                    <div class="bg-white/90 text-emerald-800 px-5 py-3 rounded-3xl font-bold">Ahorrás dinero</div>
+                    <div class="bg-white/90 text-emerald-800 px-5 py-3 rounded-3xl font-bold">Cuidás el ambiente</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ESCENA 6 -->
+        <div id="scene6" class="scene relative h-[640px] flex flex-col items-center justify-center bg-gradient-to-br from-emerald-900 to-green-950">
+            <img src="4-final.jpg" class="absolute inset-0 w-full h-full object-cover opacity-30">
+            <div class="relative z-10 text-center px-8">
+                <div class="text-6xl mb-6">🌾🇦🇷</div>
+                <h2 class="text-5xl font-bold">PREWIM vK4.9.8</h2>
+                <p class="text-xl mt-4">100% gratis • Validado en campo</p>
+                <a href="https://predweem.github.io/mis-apps/" target="_blank" 
+                   class="mt-12 block bg-white text-emerald-800 font-bold text-2xl py-4 px-10 rounded-3xl inline-flex items-center gap-3 mx-auto">
+                    PROBÁLO AHORA
+                    <span class="text-3xl">→</span>
+                </a>
+                <p class="text-xs mt-10 text-white/70">https://predweem.github.io/mis-apps/</p>
+            </div>
+        </div>
+
+        <div class="bg-zinc-900 py-5 px-6 flex flex-col items-center gap-4">
+            <button onclick="playFastExplanation()" 
+                    class="w-full flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 py-5 rounded-3xl font-bold text-xl transition">
+                <span class="text-4xl">▶</span>
+                ESCUCHAR EXPLICACIÓN RÁPIDA
+            </button>
+
+            <select id="voiceSelect" class="w-full bg-zinc-800 text-white rounded-3xl py-3 px-5 text-sm"></select>
+
+            <button onclick="window.location.reload()" class="text-white/70 hover:text-white text-xs flex items-center gap-1">
+                <span>⟳</span> REINICIAR
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let selectedVoice = null;
+
+        function loadVoices() {
+            const voices = speechSynthesis.getVoices();
+            const select = document.getElementById('voiceSelect');
+            select.innerHTML = '<option value="">Voz clara argentina automática</option>';
+            voices.forEach(voice => {
+                if (voice.lang.startsWith('es')) {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    if (voice.lang === 'es-AR' || voice.name.includes('Google') || voice.name.includes('Microsoft')) option.selected = true;
+                    select.appendChild(option);
+                }
+            });
+            selectedVoice = voices.find(v => v.lang === 'es-AR') || voices.find(v => v.lang.startsWith('es')) || voices[0];
+        }
+
+        function speak(phrase) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(phrase);
+                utterance.lang = 'es-AR';
+                utterance.rate = 0.96;
+                utterance.pitch = 1.0;
+                if (selectedVoice) utterance.voice = selectedVoice;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        const narracion = {
+            scene1: ["Hola.", "Te explico cómo funciona PREDWIM."],
+            scene2: ["Solo ingresás cuatro datos diarios.", "Fecha, temperatura máxima, mínima y lluvia."],
+            scene3: ["Primero, el sistema a traves de una red neuronal predice la germinación.", "Segundo, se calcula el balance hídrico del suelo.", "Tercero, un reloj térmico calcula la ventana óptima 600 a 800 grados-día."],
+            scene4: ["Visualmente observas un mapa de riesgo rojo y verde.", "Curva interactiva con cohortes.", "Medidor de grados-día con pronóstico.", "Y balance de lluvia versus humedad."],
+            scene5: ["Así aplicás el herbicida en el momento exacto.", "Evitás resistencia.", "Ahorrás dinero.", "Y cuidás el ambiente."],
+            scene6: ["PREDWIM VERSION 2026", "Validado en campo.", "Es completamente gratis.", "Probálo ahora."]
+        };
+
+        function playFastExplanation() {
+            window.speechSynthesis.cancel();
+            document.querySelectorAll('.scene').forEach(s => s.style.display = 'none');
+
+            let time = 0;
+            const pause = 550;
+
+            // ESCENA 1 → 3 segundos exactos
+            document.getElementById('scene1').style.display = 'flex';
+            narracion.scene1.forEach((p, i) => setTimeout(() => speak(p), time + i * pause));
+            setTimeout(() => {
+                document.getElementById('scene1').style.display = 'none';
+                // Transición INSTANTÁNEA a escena 2 (sin retardo)
+                document.getElementById('scene2').style.display = 'flex';
+                narracion.scene2.forEach((p, i) => setTimeout(() => speak(p), 50 + i * pause));
+            }, 3000);
+
+            time = 3000 + 6000;
+
+            // ESCENA 3 (transición instantánea)
+            setTimeout(() => {
+                document.getElementById('scene2').style.display = 'none';
+                document.getElementById('scene3').style.display = 'flex';
+                narracion.scene3.forEach((p, i) => setTimeout(() => speak(p), 50 + i * pause));
+            }, time);
+
+            time += 21000;
+
+            // ESCENA 4
+            setTimeout(() => {
+                document.getElementById('scene3').style.display = 'none';
+                document.getElementById('scene4').style.display = 'flex';
+                narracion.scene4.forEach((p, i) => setTimeout(() => speak(p), 50 + i * pause));
+            }, time);
+
+            time += 14000;
+
+            // ESCENA 5
+            setTimeout(() => {
+                document.getElementById('scene4').style.display = 'none';
+                document.getElementById('scene5').style.display = 'flex';
+                narracion.scene5.forEach((p, i) => setTimeout(() => speak(p), 50 + i * pause));
+            }, time);
+
+            time += 14000;
+
+            // ESCENA 6
+            setTimeout(() => {
+                document.getElementById('scene5').style.display = 'none';
+                document.getElementById('scene6').style.display = 'flex';
+                narracion.scene6.forEach((p, i) => setTimeout(() => speak(p), 50 + i * pause));
+            }, time);
+        }
+
+        window.onload = () => {
+            loadVoices();
+            speechSynthesis.onvoiceschanged = loadVoices;
+        };
+    </script>
+</body>
+</html>
